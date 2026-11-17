@@ -1,0 +1,868 @@
+[
+ {
+  "date": "2026-11-17",
+  "label": "Tue Nov 17",
+  "weekday": "Tuesday",
+  "day": "17",
+  "month": "November",
+  "stand": "Tue Nov 17, 06:18",
+  "summary": "1 must-do · 4 events · 1 mail · exam in 7 days",
+  "series": "color",
+  "palette": 0,
+  "light": "rays",
+  "no": 1,
+  "seed": "demo-2026-11-17",
+  "cards": [
+   {
+    "id": "math2-hw2",
+    "kind": "deadline",
+    "rarity": 4,
+    "title": "Math II · Homework 2",
+    "value": "11/19",
+    "valueSub": "Thu 23:59",
+    "line": [
+     "Math II",
+     "homework"
+    ],
+    "rows": [
+     [
+      "flag",
+      "Not submitted yet",
+      "group of 3 · one PDF"
+     ],
+     [
+      "clock",
+      "Grace period Tue 11/24",
+      "same day as the Math I exam"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Math II"
+     ],
+     [
+      "Status",
+      "open"
+     ],
+     [
+      "Due",
+      "Thu 23:59"
+     ]
+    ],
+    "link": {
+     "label": "Open submission",
+     "href": "https://example.org/submit"
+    },
+    "say": "Your must-do comes first."
+   },
+   {
+    "id": "math2-tut",
+    "kind": "tutorial",
+    "rarity": 1,
+    "title": "Math II · Tutorial",
+    "value": "10–12",
+    "line": [
+     "Tutorial",
+     "Campus B"
+    ],
+    "rows": [
+     [
+      "pin",
+      "Room 2.70.0.01",
+      "Campus B"
+     ],
+     [
+      "car",
+      "Leave at 09:20",
+      "about 35 min by train"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Math II"
+     ],
+     [
+      "Length",
+      "2 h"
+     ],
+     [
+      "Group",
+      "4"
+     ]
+    ],
+    "say": "Tutorial at ten."
+   },
+   {
+    "id": "compsys",
+    "kind": "lecture",
+    "rarity": 1,
+    "title": "Computer Systems",
+    "value": "12–14",
+    "line": [
+     "Lecture",
+     "Hall 1"
+    ],
+    "rows": [
+     [
+      "pin",
+      "Lecture hall 1",
+      "main building"
+     ],
+     [
+      "book",
+      "Slides 7: caches",
+      "on the course page"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "CompSys"
+     ],
+     [
+      "Length",
+      "2 h"
+     ],
+     [
+      "Room",
+      "H 1"
+     ]
+    ],
+    "say": "Lecture at noon."
+   },
+   {
+    "id": "project-sync",
+    "kind": "meeting",
+    "rarity": 1,
+    "title": "Project sync",
+    "value": "14:30",
+    "valueSub": "30 min",
+    "line": [
+     "Group project",
+     "video call"
+    ],
+    "rows": [
+     [
+      "group",
+      "Sam, Priya and you",
+      "agenda: split the slides"
+     ],
+     [
+      "pencil",
+      "Bring your draft",
+      "section 2"
+     ]
+    ],
+    "stats": [
+     [
+      "With",
+      "3 people"
+     ],
+     [
+      "Length",
+      "30 min"
+     ],
+     [
+      "Where",
+      "online"
+     ]
+    ],
+    "say": "Short project call."
+   },
+   {
+    "id": "math1-lec",
+    "kind": "lecture",
+    "rarity": 1,
+    "title": "Math I",
+    "value": "16–18",
+    "line": [
+     "Lecture",
+     "Hall 3"
+    ],
+    "rows": [
+     [
+      "pin",
+      "Lecture hall 3",
+      "main building"
+     ],
+     [
+      "shield",
+      "Exam in 7 days",
+      "last lecture before it"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Math I"
+     ],
+     [
+      "Length",
+      "2 h"
+     ],
+     [
+      "Room",
+      "H 3"
+     ]
+    ],
+    "say": "Last Math I lecture before the exam."
+   },
+   {
+    "id": "mail-david",
+    "kind": "mail",
+    "rarity": 2,
+    "title": "David Werner",
+    "value": "today",
+    "line": [
+     "Mail",
+     "waiting on you"
+    ],
+    "rows": [
+     [
+      "mail",
+      "Discord study group?",
+      "asks if you want to join"
+     ],
+     [
+      "reply",
+      "Your reply is missing",
+      "since 08:40"
+     ]
+    ],
+    "stats": [
+     [
+      "From",
+      "David"
+     ],
+     [
+      "Since",
+      "today"
+     ],
+     [
+      "Topic",
+      "studying"
+     ]
+    ],
+    "say": "Someone is waiting on you.",
+    "done": true
+   },
+   {
+    "id": "algo-sheet5",
+    "kind": "week",
+    "rarity": 3,
+    "title": "Algorithms · Sheet 5",
+    "value": "Fri",
+    "valueSub": "12:00",
+    "line": [
+     "Homework",
+     "this week"
+    ],
+    "rows": [
+     [
+      "group",
+      "Pairs",
+      "with Priya"
+     ],
+     [
+      "pencil",
+      "Tasks 1–4",
+      "bonus points possible"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Algo"
+     ],
+     [
+      "Due",
+      "Fri 12:00"
+     ],
+     [
+      "Points",
+      "20"
+     ]
+    ],
+    "say": "Due later this week."
+   },
+   {
+    "id": "learn-dfa",
+    "kind": "learn",
+    "rarity": 2,
+    "title": "Deterministic automata",
+    "value": "DFA",
+    "line": [
+     "Study topic",
+     "Theory of CS"
+    ],
+    "rows": [
+     [
+      "bulb",
+      "Minimisation",
+      "still shaky"
+     ],
+     [
+      "book",
+      "Script ch. 3",
+      "with worked examples"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Theory"
+     ],
+     [
+      "Status",
+      "open"
+     ],
+     [
+      "Source",
+      "script"
+     ]
+    ],
+    "say": "A study topic for in between."
+   },
+   {
+    "id": "exam-math1",
+    "kind": "boss",
+    "rarity": 5,
+    "title": "Midterm · Math I",
+    "value": "11/24",
+    "valueSub": "10:15",
+    "line": [
+     "Math I",
+     "exam"
+    ],
+    "rows": [
+     [
+      "clock",
+      "Tue 11/24, 10:15",
+      "90 minutes · Hall 1"
+     ],
+     [
+      "book",
+      "Sheets 1–6",
+      "proofs and limits"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Math I"
+     ],
+     [
+      "In",
+      "7 days"
+     ],
+     [
+      "Length",
+      "90 min"
+     ]
+    ],
+    "tag": "Exam",
+    "say": "Exam in 7 days."
+   }
+  ]
+ },
+ {
+  "date": "2026-11-16",
+  "label": "Mon Nov 16",
+  "weekday": "Monday",
+  "day": "16",
+  "month": "November",
+  "stand": "Mon Nov 16, 06:20",
+  "summary": "1 must-do · 3 events · 1 mail · exam in 9 days",
+  "series": "chapter",
+  "palette": 0,
+  "light": "rays",
+  "no": 1,
+  "seed": "demo-2026-11-16",
+  "cards": [
+   {
+    "id": "physics-sheet3",
+    "kind": "deadline",
+    "rarity": 4,
+    "title": "Physics · Sheet 3",
+    "value": "23:59",
+    "valueSub": "today",
+    "line": [
+     "Experimental physics",
+     "problem sheet"
+    ],
+    "rows": [
+     [
+      "up",
+      "Upload by 23:59",
+      "finish it after the lecture"
+     ],
+     [
+      "flag",
+      "Not submitted yet",
+      "open on the course portal"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Physics"
+     ],
+     [
+      "Status",
+      "open"
+     ],
+     [
+      "Due",
+      "today"
+     ]
+    ],
+    "link": {
+     "label": "Open submission",
+     "href": "https://example.org/submit"
+    },
+    "say": "The must-do comes first."
+   },
+   {
+    "id": "lec-analysis",
+    "kind": "lecture",
+    "rarity": 1,
+    "title": "Analysis I",
+    "value": "10–12",
+    "line": [
+     "Lecture",
+     "Hall 1"
+    ],
+    "rows": [
+     [
+      "pin",
+      "Lecture hall 1",
+      "main building"
+     ],
+     [
+      "car",
+      "Leave at 09:15",
+      "about 40 minutes"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Ana I"
+     ],
+     [
+      "Length",
+      "2 h"
+     ],
+     [
+      "Room",
+      "H 1"
+     ]
+    ],
+    "say": "Lecture at ten in Hall 1."
+   },
+   {
+    "id": "tut-prog",
+    "kind": "tutorial",
+    "rarity": 1,
+    "title": "Programming · Tutorial",
+    "value": "14–16",
+    "line": [
+     "Tutorial",
+     "PC lab"
+    ],
+    "rows": [
+     [
+      "pin",
+      "Room 0.12",
+      "PC lab"
+     ],
+     [
+      "chip",
+      "Group 3",
+      "bring your laptop"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Prog"
+     ],
+     [
+      "Length",
+      "2 h"
+     ],
+     [
+      "Group",
+      "3"
+     ]
+    ],
+    "say": "Tutorial in the afternoon."
+   },
+   {
+    "id": "focus-block",
+    "kind": "focus",
+    "rarity": 2,
+    "title": "Focus block",
+    "value": "16:30",
+    "valueSub": "until 18:00",
+    "line": [
+     "Library",
+     "before going home"
+    ],
+    "rows": [
+     [
+      "up",
+      "Finish sheet 3",
+      "due 23:59"
+     ],
+     [
+      "book",
+      "Read chapter 4",
+      "for Thursday"
+     ]
+    ],
+    "stats": [
+     [
+      "Length",
+      "1.5 h"
+     ],
+     [
+      "Tasks",
+      "2"
+     ],
+     [
+      "After",
+      "free"
+     ]
+    ],
+    "say": "Must-do first, then home."
+   },
+   {
+    "id": "mail-lena",
+    "kind": "mail",
+    "rarity": 2,
+    "title": "Lena (study group)",
+    "value": "2 days",
+    "line": [
+     "Mail",
+     "waiting on you"
+    ],
+    "rows": [
+     [
+      "mail",
+      "Study group slot",
+      "Wednesday or Thursday?"
+     ],
+     [
+      "reply",
+      "Your reply is missing",
+      "since Saturday"
+     ]
+    ],
+    "stats": [
+     [
+      "From",
+      "Lena"
+     ],
+     [
+      "Since",
+      "Sat"
+     ],
+     [
+      "Topic",
+      "studying"
+     ]
+    ],
+    "say": "Someone is waiting on you."
+   },
+   {
+    "id": "week-analysis",
+    "kind": "week",
+    "rarity": 3,
+    "title": "Analysis · Sheet 4",
+    "value": "Thu",
+    "valueSub": "12:00",
+    "line": [
+     "Homework",
+     "this week"
+    ],
+    "rows": [
+     [
+      "group",
+      "Pairs",
+      "with Lena"
+     ],
+     [
+      "pencil",
+      "Tasks 1–4",
+      "bonus points possible"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Ana I"
+     ],
+     [
+      "Due",
+      "Thu 12:00"
+     ],
+     [
+      "Points",
+      "20"
+     ]
+    ],
+    "say": "Due later this week."
+   },
+   {
+    "id": "learn-limits",
+    "kind": "learn",
+    "rarity": 2,
+    "title": "Limits of sequences",
+    "value": "ε-N",
+    "line": [
+     "Study topic",
+     "Analysis I"
+    ],
+    "rows": [
+     [
+      "bulb",
+      "Epsilon definition",
+      "still shaky"
+     ],
+     [
+      "book",
+      "Script ch. 2",
+      "with examples"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Ana I"
+     ],
+     [
+      "Status",
+      "open"
+     ],
+     [
+      "Source",
+      "script"
+     ]
+    ],
+    "say": "A study topic for in between."
+   },
+   {
+    "id": "exam-prog",
+    "kind": "boss",
+    "rarity": 5,
+    "title": "Programming quiz",
+    "value": "11/25",
+    "valueSub": "14:00",
+    "line": [
+     "Programming",
+     "exam"
+    ],
+    "rows": [
+     [
+      "clock",
+      "Wed 11/25, 14:00",
+      "60 minutes"
+     ],
+     [
+      "book",
+      "Material up to week 6",
+      "loops and lists"
+     ]
+    ],
+    "stats": [
+     [
+      "Course",
+      "Prog"
+     ],
+     [
+      "In",
+      "9 days"
+     ],
+     [
+      "Length",
+      "60 min"
+     ]
+    ],
+    "tag": "Exam",
+    "say": "Exam in 9 days."
+   }
+  ]
+ },
+ {
+  "date": "2026-11-15",
+  "label": "Sun Nov 15",
+  "weekday": "Sunday",
+  "day": "15",
+  "month": "November",
+  "stand": "Sun Nov 15, 08:02",
+  "summary": "Sunday · 1 shift · 1 heads-up",
+  "series": "woodcut",
+  "palette": 0,
+  "light": "halo",
+  "no": 1,
+  "seed": "demo-2026-11-15",
+  "cards": [
+   {
+    "id": "cafe-shift",
+    "kind": "work",
+    "rarity": 4,
+    "title": "Café shift",
+    "value": "10–15",
+    "line": [
+     "Work",
+     "Corner Café"
+    ],
+    "rows": [
+     [
+      "pin",
+      "Corner Café",
+      "Market Square"
+     ],
+     [
+      "clock",
+      "Break at 12:30",
+      "30 minutes"
+     ]
+    ],
+    "stats": [
+     [
+      "Shift",
+      "5 h"
+     ],
+     [
+      "Role",
+      "barista"
+     ],
+     [
+      "Next",
+      "Fri"
+     ]
+    ],
+    "say": "Shift from ten to three."
+   },
+   {
+    "id": "strike",
+    "kind": "info",
+    "rarity": 2,
+    "title": "Rail strike on Monday",
+    "value": "Mon",
+    "line": [
+     "Heads-up",
+     "commute"
+    ],
+    "rows": [
+     [
+      "car",
+      "Trains may not run",
+      "plan 30 min extra"
+     ],
+     [
+      "bolt",
+      "Check the app at 07:00",
+      "before you leave"
+     ]
+    ],
+    "stats": [
+     [
+      "Line",
+      "RE 1"
+     ],
+     [
+      "From",
+      "04:00"
+     ],
+     [
+      "Source",
+      "news"
+     ]
+    ],
+    "say": "Heads-up: rail strike tomorrow."
+   },
+   {
+    "id": "groceries",
+    "kind": "task",
+    "rarity": 1,
+    "title": "Groceries for the week",
+    "value": "18:00",
+    "line": [
+     "To-do",
+     "before dinner"
+    ],
+    "rows": [
+     [
+      "check",
+      "List is in Notes",
+      "8 items"
+     ],
+     [
+      "pin",
+      "Supermarket",
+      "closes at 20:00"
+     ]
+    ],
+    "stats": [
+     [
+      "Items",
+      "8"
+     ],
+     [
+      "Budget",
+      "€40"
+     ],
+     [
+      "Time",
+      "40 min"
+     ]
+    ],
+    "say": "Groceries before dinner."
+   },
+   {
+    "id": "evening-off",
+    "kind": "free",
+    "rarity": 1,
+    "title": "Evening off",
+    "value": "19:00",
+    "valueSub": "onwards",
+    "line": [
+     "Free",
+     "nothing planned"
+    ],
+    "rows": [
+     [
+      "sun",
+      "No deadlines tonight",
+      "enjoy it"
+     ],
+     [
+      "book",
+      "Maybe a book",
+      "no screens"
+     ]
+    ],
+    "stats": [
+     [
+      "From",
+      "19:00"
+     ],
+     [
+      "Plan",
+      "none"
+     ],
+     [
+      "Mood",
+      "rest"
+     ]
+    ],
+    "say": "The evening is yours."
+   }
+  ]
+ }
+]

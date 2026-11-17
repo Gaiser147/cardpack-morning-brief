@@ -1,0 +1,88 @@
+<body class="s-chapter phase-intro">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs id="defs">
+  <pattern id="tone-k" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.25" fill="#111"/></pattern>
+  <pattern id="seig" width="40" height="20" patternUnits="userSpaceOnUse"><g fill="none" stroke="#f3e9d3" stroke-width="1.8" opacity=".85"><circle cx="20" cy="20" r="18"/><circle cx="20" cy="20" r="13"/><circle cx="20" cy="20" r="8"/><circle cx="0" cy="20" r="18"/><circle cx="0" cy="20" r="13"/><circle cx="0" cy="20" r="8"/><circle cx="40" cy="20" r="18"/><circle cx="40" cy="20" r="13"/><circle cx="40" cy="20" r="8"/><circle cx="20" cy="0" r="18"/><circle cx="20" cy="0" r="13"/><circle cx="20" cy="0" r="8"/></g></pattern>
+</defs></svg>
+
+<div class="bar" id="bar">
+  <button class="pill" id="binderBtn" type="button" aria-label="Open binder">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="15" height="18" rx="2"/><path d="M8 3v18"/><path d="M11.5 8h4"/><path d="M11.5 12h4"/></svg>
+    <span class="lbl">Binder</span> <span class="num" id="binderNum">1</span>
+  </button>
+  <span class="grow"></span>
+  <div class="seg hand-only" role="group" aria-label="View">
+      <button type="button" id="modeHand" aria-pressed="true">Hand</button>
+      <button type="button" id="modeList" aria-pressed="false">List</button>
+    </div>
+  <button class="pill icon hand-only" id="replay" type="button" aria-label="Open the pack again"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4.6h4.6"/></svg></button>
+  <button class="pill icon" id="mute" type="button" aria-pressed="false" aria-label="Sound off">
+    <svg class="on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4.2 4.2 0 0 1 0 6"/><path d="M18.3 6.4a8 8 0 0 1 0 11.2"/></svg>
+    <svg class="off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M16 9.5l5 5"/><path d="M21 9.5l-5 5"/></svg>
+  </button>
+  <button class="pill" id="skip" type="button">Skip
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l6 6-6 6"/><path d="M13 6l6 6-6 6"/></svg>
+  </button>
+</div>
+
+<main class="stage" id="stage" aria-label="Open today's pack">
+  <canvas class="rays" id="rays" aria-hidden="true"></canvas>
+  <div class="headline" id="headline"><b id="hlTitle"></b><span id="hlSub"></span></div>
+  <div class="pack-wrap" id="packWrap">
+    <div class="pack-move" id="packMove">
+      <div class="pack-floor" aria-hidden="true"></div>
+      <div class="pack" id="pack">
+        <div class="stack" id="stack" aria-hidden="true"></div>
+        <div class="mouth" id="mouth"></div>
+        <div class="pack-body" id="packBody">
+          <div class="pprint" id="pprint"></div>
+          <div class="crimp"></div>
+          <div class="foilx"></div><div class="foilx b"></div><div class="pglare"></div><div class="psweep" id="psweep"></div><div class="pedge"></div>
+          <div class="pprint pptop" id="pptop"></div>
+        </div>
+        <div class="glowup" aria-hidden="true"></div>
+        <div class="tear-zone" id="tearZone" role="button" tabindex="0" aria-label="Tear the pack open"></div>
+        <div class="pull-zone" id="pullZone" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="tearlayer" id="tearLayer" aria-hidden="true"><div class="strip" id="strip"></div><span class="swipe-dot" id="swipeDot"></span></div>
+  </div>
+  <p class="hintline" id="hintline"></p>
+</main>
+<canvas id="sparks" aria-hidden="true"></canvas>
+<div class="flash" id="flash" aria-hidden="true"></div>
+<div class="banner" id="banner" aria-hidden="true"><b></b><span></span></div>
+<div class="minihand" id="minihand" aria-hidden="true"><b></b></div>
+<button class="cta" id="cta" type="button"></button>
+
+<section class="hand" id="hand" aria-label="Your cards">
+  <header class="hand-head"><h1 id="handTitle"></h1><p id="handSum"></p></header>
+  <div class="fan" id="fan" aria-roledescription="card fan"></div>
+  <div class="fan-nav">
+    <button class="pill icon" id="prev" type="button" aria-label="Previous card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="dots" id="dots" aria-hidden="true"></div>
+    <button class="pill icon" id="next" type="button" aria-label="Next card"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+  <div class="hand-actions" id="handActions"></div>
+  <div class="list" id="list" role="list"></div>
+  <footer class="hand-foot">
+    <p class="stand" id="stand"></p>
+    <div class="preview" id="preview" hidden></div>
+  </footer>
+</section>
+
+<section class="binder" id="binder" aria-label="Binder">
+  <header class="b-head"><h2 id="bTitle">Binder</h2><div class="b-stats" id="bStats"></div></header>
+  <div class="b-body" id="bBody"></div>
+</section>
+
+<div class="zoom" id="zoom" role="dialog" aria-modal="true" aria-label="Card">
+  <button class="pill icon close" id="zoomClose" type="button" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
+  <div class="zc" id="zc"></div>
+  <div class="zact" id="zact"></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<p class="sr" id="live" aria-live="polite"></p>
+
+<script type="application/json" id="pack-fallback">
+/*PACKS*/
+</script>

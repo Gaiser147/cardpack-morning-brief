@@ -1,0 +1,329 @@
+{
+ "date": "2026-11-16",
+ "label": "Mon Nov 16",
+ "weekday": "Monday",
+ "day": "16",
+ "month": "November",
+ "stand": "Mon Nov 16, 06:20",
+ "summary": "1 must-do · 3 events · 1 mail · exam in 9 days",
+ "series": "chapter",
+ "palette": 0,
+ "light": "rays",
+ "no": 1,
+ "seed": "demo-2026-11-16",
+ "cards": [
+  {
+   "id": "physics-sheet3",
+   "kind": "deadline",
+   "rarity": 4,
+   "title": "Physics · Sheet 3",
+   "value": "23:59",
+   "valueSub": "today",
+   "line": [
+    "Experimental physics",
+    "problem sheet"
+   ],
+   "rows": [
+    [
+     "up",
+     "Upload by 23:59",
+     "finish it after the lecture"
+    ],
+    [
+     "flag",
+     "Not submitted yet",
+     "open on the course portal"
+    ]
+   ],
+   "stats": [
+    [
+     "Course",
+     "Physics"
+    ],
+    [
+     "Status",
+     "open"
+    ],
+    [
+     "Due",
+     "today"
+    ]
+   ],
+   "link": {
+    "label": "Open submission",
+    "href": "https://example.org/submit"
+   },
+   "say": "The must-do comes first."
+  },
+  {
+   "id": "lec-analysis",
+   "kind": "lecture",
+   "rarity": 1,
+   "title": "Analysis I",
+   "value": "10–12",
+   "line": [
+    "Lecture",
+    "Hall 1"
+   ],
+   "rows": [
+    [
+     "pin",
+     "Lecture hall 1",
+     "main building"
+    ],
+    [
+     "car",
+     "Leave at 09:15",
+     "about 40 minutes"
+    ]
+   ],
+   "stats": [
+    [
+     "Course",
+     "Ana I"
+    ],
+    [
+     "Length",
+     "2 h"
+    ],
+    [
+     "Room",
+     "H 1"
+    ]
+   ],
+   "say": "Lecture at ten in Hall 1."
+  },
+  {
+   "id": "tut-prog",
+   "kind": "tutorial",
+   "rarity": 1,
+   "title": "Programming · Tutorial",
+   "value": "14–16",
+   "line": [
+    "Tutorial",
+    "PC lab"
+   ],
+   "rows": [
+    [
+     "pin",
+     "Room 0.12",
+     "PC lab"
+    ],
+    [
+     "chip",
+     "Group 3",
+     "bring your laptop"
+    ]
+   ],
+   "stats": [
+    [
+     "Course",
+     "Prog"
+    ],
+    [
+     "Length",
+     "2 h"
+    ],
+    [
+     "Group",
+     "3"
+    ]
+   ],
+   "say": "Tutorial in the afternoon."
+  },
+  {
+   "id": "focus-block",
+   "kind": "focus",
+   "rarity": 2,
+   "title": "Focus block",
+   "value": "16:30",
+   "valueSub": "until 18:00",
+   "line": [
+    "Library",
+    "before going home"
+   ],
+   "rows": [
+    [
+     "up",
+     "Finish sheet 3",
+     "due 23:59"
+    ],
+    [
+     "book",
+     "Read chapter 4",
+     "for Thursday"
+    ]
+   ],
+   "stats": [
+    [
+     "Length",
+     "1.5 h"
+    ],
+    [
+     "Tasks",
+     "2"
+    ],
+    [
+     "After",
+     "free"
+    ]
+   ],
+   "say": "Must-do first, then home."
+  },
+  {
+   "id": "mail-lena",
+   "kind": "mail",
+   "rarity": 2,
+   "title": "Lena (study group)",
+   "value": "2 days",
+   "line": [
+    "Mail",
+    "waiting on you"
+   ],
+   "rows": [
+    [
+     "mail",
+     "Study group slot",
+     "Wednesday or Thursday?"
+    ],
+    [
+     "reply",
+     "Your reply is missing",
+     "since Saturday"
+    ]
+   ],
+   "stats": [
+    [
+     "From",
+     "Lena"
+    ],
+    [
+     "Since",
+     "Sat"
+    ],
+    [
+     "Topic",
+     "studying"
+    ]
+   ],
+   "say": "Someone is waiting on you."
+  },
+  {
+   "id": "week-analysis",
+   "kind": "week",
+   "rarity": 3,
+   "title": "Analysis · Sheet 4",
+   "value": "Thu",
+   "valueSub": "12:00",
+   "line": [
+    "Homework",
+    "this week"
+   ],
+   "rows": [
+    [
+     "group",
+     "Pairs",
+     "with Lena"
+    ],
+    [
+     "pencil",
+     "Tasks 1–4",
+     "bonus points possible"
+    ]
+   ],
+   "stats": [
+    [
+     "Course",
+     "Ana I"
+    ],
+    [
+     "Due",
+     "Thu 12:00"
+    ],
+    [
+     "Points",
+     "20"
+    ]
+   ],
+   "say": "Due later this week."
+  },
+  {
+   "id": "learn-limits",
+   "kind": "learn",
+   "rarity": 2,
+   "title": "Limits of sequences",
+   "value": "ε-N",
+   "line": [
+    "Study topic",
+    "Analysis I"
+   ],
+   "rows": [
+    [
+     "bulb",
+     "Epsilon definition",
+     "still shaky"
+    ],
+    [
+     "book",
+     "Script ch. 2",
+     "with examples"
+    ]
+   ],
+   "stats": [
+    [
+     "Course",
+     "Ana I"
+    ],
+    [
+     "Status",
+     "open"
+    ],
+    [
+     "Source",
+     "script"
+    ]
+   ],
+   "say": "A study topic for in between."
+  },
+  {
+   "id": "exam-prog",
+   "kind": "boss",
+   "rarity": 5,
+   "title": "Programming quiz",
+   "value": "11/25",
+   "valueSub": "14:00",
+   "line": [
+    "Programming",
+    "exam"
+   ],
+   "rows": [
+    [
+     "clock",
+     "Wed 11/25, 14:00",
+     "60 minutes"
+    ],
+    [
+     "book",
+     "Material up to week 6",
+     "loops and lists"
+    ]
+   ],
+   "stats": [
+    [
+     "Course",
+     "Prog"
+    ],
+    [
+     "In",
+     "9 days"
+    ],
+    [
+     "Length",
+     "60 min"
+    ]
+   ],
+   "tag": "Exam",
+   "say": "Exam in 9 days."
+  }
+ ]
+}
